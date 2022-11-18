@@ -1,0 +1,8 @@
+<people>
+{% for person in d.foo %}
+  <person>
+    <name>{{person.name}}</name>
+  </person>
+{% endfor %}
+</people>
+
